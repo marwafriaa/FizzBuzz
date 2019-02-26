@@ -4,8 +4,8 @@
 # In[13]:
 
 
-def fizzbuzz():
-    for i in range(50):
+def fizzbuzz(nb):
+    for i in range(nb):
         if verify_mult(i,3) and verify_mult(i,5):
             print("fizzbuzz")
             continue
@@ -33,7 +33,7 @@ def verify_mult(a,b):
 # In[14]:
 
 def main():
-    fizzbuzz()
+    fizzbuzz(100)
 
 
 # In[6]:
